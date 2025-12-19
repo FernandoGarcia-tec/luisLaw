@@ -49,7 +49,7 @@ export default function Header() {
               </Link>
             ))}
           </nav>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <div className="hidden md:block">
               <Button asChild size="sm">
                 <Link href="#contact">Consulta Gratuita</Link>
