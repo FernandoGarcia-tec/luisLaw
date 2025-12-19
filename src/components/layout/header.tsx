@@ -1,6 +1,6 @@
 "use client";
 
-import { Scale, Menu, X } from "lucide-react";
+import { Scale, Menu } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
@@ -38,20 +38,20 @@ export default function Header() {
     )}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex items-center gap-2 text-2xl font-bold font-headline text-primary">
+          <Link href="/" className="flex items-center gap-2 text-xl md:text-2xl font-bold font-headline text-primary shrink-0">
             <Scale className="h-7 w-7" />
-            <span>Luis asociados</span>
+            <span className="truncate">Luis asociados</span>
           </Link>
-          <nav className="hidden md:flex items-center space-x-6">
+          <nav className="hidden md:flex items-center space-x-4 lg:space-x-6">
             {navLinks.map((link) => (
               <Link key={link.href} href={link.href} className="text-sm font-semibold text-foreground/80 hover:text-foreground transition-colors">
                 {link.label}
               </Link>
             ))}
           </nav>
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
             <div className="hidden md:block">
-              <Button asChild>
+              <Button asChild size="sm">
                 <Link href="#contact">Consulta Gratuita</Link>
               </Button>
             </div>
