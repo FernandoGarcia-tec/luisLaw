@@ -5,18 +5,34 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
+import React from "react";
 
 export default function Contact() {
-  const { toast } = useToast();
-
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Here you would typically handle form submission, e.g., send data to an API
-    toast({
-      title: "Mensaje Enviado",
-      description: "Gracias por contactarnos. Nos pondremos en contacto con usted en breve.",
-    });
+    const formData = new FormData(e.target as HTMLFormElement);
+    const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
+    const phone = formData.get("phone") as string;
+    const message = formData.get("message") as string;
+
+    const whatsappMessage = `
+¡Hola LEX MAGNA!
+
+Quisiera solicitar una consulta.
+
+Nombre: ${name}
+Correo Electrónico: ${email}
+Teléfono: ${phone}
+
+Mensaje:
+${message}
+    `.trim();
+
+    const whatsappUrl = `https://wa.me/5215512345678?text=${encodeURIComponent(whatsappMessage)}`;
+    
+    window.open(whatsappUrl, "_blank");
+
     (e.target as HTMLFormElement).reset();
   };
 
@@ -60,10 +76,10 @@ export default function Contact() {
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
-                <Input type="text" placeholder="Nombre Completo" required />
-                <Input type="email" placeholder="Correo Electrónico" required />
-                <Input type="tel" placeholder="Número de Teléfono" />
-                <Textarea placeholder="Describa brevemente su caso..." rows={5} required />
+                <Input name="name" type="text" placeholder="Nombre Completo" required />
+                <Input name="email" type="email" placeholder="Correo Electrónico" required />
+                <Input name="phone" type="tel" placeholder="Número de Teléfono" />
+                <Textarea name="message" placeholder="Describa brevemente su caso..." rows={5} required />
                 <Button type="submit" className="w-full" size="lg">Enviar Mensaje</Button>
               </form>
             </CardContent>
