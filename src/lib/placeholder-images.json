@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-attorney",
+      "description": "Professional attorney in a suit",
+      "imageUrl": "https://images.unsplash.com/photo-1528747310874-b78b2322ffc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhdHRvcm5leSUyMGxhd3llcnxlbnwwfHx8fDE3NjYxMTY1MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "attorney lawyer"
+    },
+    {
+      "id": "hero-background",
+      "description": "Blurred background of a luxury law library",
+      "imageUrl": "https://images.unsplash.com/photo-1575282343536-469af953c6e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXclMjBsaWJyYXJ5fGVufDB8fHx8MTc2NjA2MDY1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "law library"
+    },
+    {
+      "id": "team-member-1",
+      "description": "Portrait of a male lawyer",
+      "imageUrl": "https://images.unsplash.com/photo-1578324389117-b7a6347d01f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYXd5ZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjYwMzUyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lawyer portrait"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Portrait of a female attorney",
+      "imageUrl": "https://images.unsplash.com/photo-1701463205870-6b6ec3dbed2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXR0b3JuZXklMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjYxMTY1MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "attorney portrait"
+    },
+    {
+      "id": "team-member-3",
+      "description": "Portrait of a professional male lawyer",
+      "imageUrl": "https://images.unsplash.com/photo-1658250273007-ced0cbd4c038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYXd5ZXIlMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzY2MTE2NTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lawyer professional"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Avatar of a smiling man",
+      "imageUrl": "https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2NjA2MDU5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Avatar of a professional woman",
+      "imageUrl": "https://images.unsplash.com/photo-1600878459081-02f46f27b406?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwZXJzb258ZW58MHx8fHwxNzY2MTE2NTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional person"
+    },
+    {
+      "id": "testimonial-avatar-3",
+      "description": "Avatar of a satisfied client",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjYwODgyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "case-study-1",
+      "description": "Image of a courthouse or legal building",
+      "imageUrl": "https://images.unsplash.com/photo-1654339222512-e8e8d4eed552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb3VydCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2NjA1MTgzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "court building"
+    },
+    {
+      "id": "case-study-2",
+      "description": "Image of a corporate business meeting",
+      "imageUrl": "https://images.unsplash.com/photo-1686771416282-3888ddaf249b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzY2MTE2NTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business meeting"
+    }
+  ]
 }

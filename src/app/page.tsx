@@ -1,3 +1,25 @@
+import Header from "@/components/layout/header";
+import Hero from "@/components/sections/hero";
+import Services from "@/components/sections/services";
+import Team from "@/components/sections/team";
+import Testimonials from "@/components/sections/testimonials";
+import CaseStudies from "@/components/sections/case-studies";
+import Contact from "@/components/sections/contact";
+import Footer from "@/components/layout/footer";
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main>
+        <Hero />
+        <Services />
+        <Team />
+        <Testimonials />
+        <CaseStudies />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
