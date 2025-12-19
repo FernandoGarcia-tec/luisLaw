@@ -5,13 +5,13 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const testimonials = [
   {
-    quote: "LEX MAGNA transformó una situación legal desesperada en una victoria contundente. Su profesionalismo y estrategia son inigualables. No podría estar más agradecido.",
+    quote: "Luis asociados transformó una situación legal desesperada en una victoria contundente. Su profesionalismo y estrategia son inigualables. No podría estar más agradecido.",
     name: "Carlos Gutiérrez",
     title: "CEO, InnovaTech",
     avatarId: "testimonial-avatar-1"
   },
   {
-    quote: "El equipo de LEX MAGNA me guió a través de un complejo proceso mercantil con una claridad y confianza que superaron todas mis expectativas. Son verdaderos maestros en su campo.",
+    quote: "El equipo de Luis asociados me guió a través de un complejo proceso mercantil con una claridad y confianza que superaron todas mis expectativas. Son verdaderos maestros en su campo.",
     name: "Laura Fernández",
     title: "Directora Financiera",
     avatarId: "testimonial-avatar-2"

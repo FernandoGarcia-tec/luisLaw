@@ -17,7 +17,7 @@ export default function Contact() {
     const message = formData.get("message") as string;
 
     const whatsappMessage = `
-¡Hola LEX MAGNA!
+¡Hola Luis asociados!
 
 Quisiera solicitar una consulta.
 

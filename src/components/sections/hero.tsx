@@ -39,7 +39,7 @@ export default function Hero() {
               <span className="text-primary">Defensa Inquebrantable.</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-xl">
-              En LEX MAGNA, combinamos décadas de experiencia con una dedicación incesante para proteger sus derechos y alcanzar el mejor resultado posible para su caso.
+              En Luis asociados, combinamos décadas de experiencia con una dedicación incesante para proteger sus derechos y alcanzar el mejor resultado posible para su caso.
             </p>
             <div className="mt-10 flex gap-4">
               <Button size="lg" asChild>

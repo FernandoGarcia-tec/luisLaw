@@ -40,7 +40,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2 text-2xl font-bold font-headline text-primary">
             <Scale className="h-7 w-7" />
-            <span>LEX MAGNA</span>
+            <span>Luis asociados</span>
           </Link>
           <nav className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
@@ -68,7 +68,7 @@ export default function Header() {
                   <div className="flex items-center justify-between mb-8">
                     <Link href="/" className="flex items-center gap-2 text-2xl font-bold font-headline text-primary" onClick={() => setMobileMenuOpen(false)}>
                       <Scale className="h-7 w-7" />
-                      <span>LEX MAGNA</span>
+                      <span>Luis asociados</span>
                     </Link>
                   </div>
                     <nav className="flex flex-col space-y-4">

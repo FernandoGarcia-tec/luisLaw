@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 text-lg font-bold font-headline text-primary mb-4 md:mb-0">
             <Scale className="h-6 w-6" />
-            <span>LEX MAGNA</span>
+            <span>Luis asociados</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} LEX MAGNA. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Luis asociados. Todos los derechos reservados.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link href="#" className="text-muted-foreground hover:text-foreground">

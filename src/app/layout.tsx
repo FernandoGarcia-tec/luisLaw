@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { MessageCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Lex Magna',
+  title: 'Luis asociados',
   description: 'Resultados Excepcionales. Defensa Inquebrantable.',
 };
 
