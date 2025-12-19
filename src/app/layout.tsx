@@ -2,7 +2,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import Link from 'next/link';
-import { MessageCircle } from 'lucide-react';
+import { Scale } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Luis asociados',
