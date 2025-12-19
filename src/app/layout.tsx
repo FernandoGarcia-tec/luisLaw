@@ -41,7 +41,7 @@ export default function RootLayout({
         <Toaster />
         <div className="fixed bottom-6 right-6 z-50">
           <Link
-            href="https://wa.me/5215512345678"
+            href="https://wa.me/523122091810"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 flex items-center justify-center shadow-lg transition-transform hover:scale-110"

@@ -40,3 +40,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Hide Next.js dev loading mark SVG */
+svg[data-next-mark-loading] {
+  display: none !important;
+}

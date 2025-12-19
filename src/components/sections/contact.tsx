@@ -29,7 +29,7 @@ Mensaje:
 ${message}
     `.trim();
 
-    const whatsappUrl = `https://wa.me/5215512345678?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/523122091810?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.open(whatsappUrl, "_blank");
 
@@ -50,21 +50,21 @@ ${message}
                 <MapPin className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold">Nuestra Oficina</h3>
-                  <p className="text-muted-foreground">Av. Reforma 222, Piso 10, Ciudad de México</p>
+                  <p className="text-muted-foreground">Colima,colima</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Phone className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold">Teléfono</h3>
-                  <p className="text-muted-foreground">(55) 1234 5678</p>
+                  <p className="text-muted-foreground">(55) 523122091810</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Mail className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold">Email</h3>
-                  <p className="text-muted-foreground">contacto@lexmagna.com</p>
+                  <p className="text-muted-foreground">contacto@gmail.com</p>
                 </div>
               </div>
             </div>

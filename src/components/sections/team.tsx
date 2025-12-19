@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const teamMembers = [
-  { name: "Lic. Ricardo Vargas", title: "Socio Fundador", imageId: "team-member-1" },
+  { name: "Lic. Luis Francisco G.Q.", title: "Socio Fundador", imageId: "team-member-1" },
   { name: "Lic. Sofía Mendoza", title: "Socia Directora", imageId: "team-member-2" },
   { name: "Lic. Javier Castillo", title: "Abogado Senior", imageId: "team-member-3" },
 ];
