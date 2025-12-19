@@ -44,7 +44,7 @@ export default function Header() {
           </nav>
           <div className="flex items-center">
             <Button asChild>
-              <Link href="#contact">Consulta Gratuita</Link>
+              <Link href="https://wa.me/5215512345678" target="_blank" rel="noopener noreferrer">Consulta Gratuita</Link>
             </Button>
           </div>
         </div>

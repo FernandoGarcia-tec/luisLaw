@@ -43,7 +43,7 @@ export default function Hero() {
             </p>
             <div className="mt-10 flex gap-4">
               <Button size="lg" asChild>
-                <Link href="#contact">Agendar Consulta</Link>
+                <Link href="https://wa.me/5215512345678" target="_blank" rel="noopener noreferrer">Agendar Consulta</Link>
               </Button>
             </div>
             <div className="mt-12 border-t border-border/20 pt-8">
