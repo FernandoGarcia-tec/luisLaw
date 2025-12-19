@@ -42,6 +42,14 @@
 }
 
 /* Hide Next.js dev loading mark SVG */
-svg[data-next-mark-loading] {
+svg[data-next-mark-loading],
+svg[data-next-mark-loading="false"],
+svg[data-next-mark-loading="true"],
+[data-next-mark] {
   display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }

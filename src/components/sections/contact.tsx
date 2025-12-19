@@ -57,7 +57,7 @@ ${message}
                 <Phone className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold">Teléfono</h3>
-                  <p className="text-muted-foreground">(55) 523122091810</p>
+                  <p className="text-muted-foreground">(55) 3122091810</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
