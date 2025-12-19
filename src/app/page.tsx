@@ -5,6 +5,7 @@ import Team from "@/components/sections/team";
 import Testimonials from "@/components/sections/testimonials";
 import CaseStudies from "@/components/sections/case-studies";
 import Footer from "@/components/layout/footer";
+import Contact from "@/components/sections/contact";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Team />
         <Testimonials />
         <CaseStudies />
+        <Contact />
       </main>
       <Footer />
     </div>
